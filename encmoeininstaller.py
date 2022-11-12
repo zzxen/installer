@@ -18,8 +18,8 @@ def install():
     os.system(command2)
 
     ip_get = requests.get("https://api.ipify.org").text
-    print("Paste in your browser : http://{}:443".format(ip_get))
-    os.system("rm -rf install")
+    print("Paste in your browser : http://{}:<PORT>".format(ip_get))
+    os.system("rm -rf x-ui-with-moein-encryption-protocol")
     exit()
 
 confirm = input("HINT ENTER TO INSTALL ALL THINGS : ")
