@@ -11,7 +11,7 @@ print("I WILL CHANGE VMESS PANEL FOR ENCRYPT.../")
 def install():
     panel_and_encryption = "https://github.com/proxykingdev2/x-ui-with-moein-encryption-protocol.git"
     command1 = "apt update -y && apt full-upgrade && git clone {}".format(panel_and_encryption)
-    command2 = "chmod +x xen && ./x-ui-with-moein-encryption-protocol/xen"
+    command2 = "chmod +x x-ui-with-moein-encryption-protocol/xen && ./x-ui-with-moein-encryption-protocol/xen"
 
     os.system(command1)
     time.sleep(2)
