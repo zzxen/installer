@@ -1,0 +1,3 @@
+# installer
+
+Just run py file ... / This is not costumize version . Just use another encryption service...
